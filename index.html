@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ee302e" />
+    <title>КИМ ЧЕН ЫН — Сайт-визитка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="topbar">
+      <a class="brand" href="#top">КЧЫ<span>™</span></a>
+      <p class="topline">Народная визитка · с мемной стороны</p>
+      <button class="sound" type="button" aria-label="Включить торжественный режим">
+        <span class="sound-dot"></span> РЕЖИМ ПАФОСА
+      </button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">официально неофициально</p>
+          <h1>КИМ<br />ЧЕН <em>ЫН</em></h1>
+          <p class="lede">Человек, который смотрит на ракету так, будто это его новый AirPods Max.</p>
+          <div class="actions">
+            <a class="button button-dark" href="#facts">УЗНАТЬ ЛЕГЕНДУ <b>↓</b></a>
+            <button class="button button-outline" type="button" id="meme-button">ВЫДАТЬ МЕМ</button>
+          </div>
+        </div>
+
+        <div class="portrait-wrap" aria-label="Стилизованный портрет Ким Чен Ына">
+          <div class="sun"></div>
+          <div class="rays"></div>
+          <div class="portrait">
+            <div class="hair"></div><div class="ear"></div><div class="face"><i class="brow left"></i><i class="brow right"></i><i class="eye left"></i><i class="eye right"></i><i class="nose"></i><i class="mouth"></i></div><div class="neck"></div><div class="jacket"><i></i><b></b></div>
+          </div>
+          <div class="stamp">100%<br />ШАРМ</div>
+          <div class="speech">«Это не ракета.<br />Это вайб.»</div>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Мемные титулы"><div>ГЛАВНЫЙ ПО ЛАЙФСТАЙЛУ <span>✦</span> МАСТЕР СЕРЬЁЗНОГО ЛИЦА <span>✦</span> КОРОЛЬ КОЖАНОГО ПАЛЬТО <span>✦</span> ГЛАВНЫЙ ПО ЛАЙФСТАЙЛУ <span>✦</span></div></section>
+
+      <section class="facts" id="facts">
+        <div class="section-title"><p class="eyebrow">карточка персонажа</p><h2>ПОЧЕМУ ОН<br /><em>ИКОНА МЕМА</em></h2></div>
+        <div class="fact-grid">
+          <article class="fact-card red"><span>01</span><h3>ВЗГЛЯД</h3><p>Умеет оценить запуск, завод и картошку с одинаковой концентрацией эпика.</p><b>◉_◉</b></article>
+          <article class="fact-card cream"><span>02</span><h3>СТИЛЬ</h3><p>Пальто, френч, улыбка. Минимализм, который слышно из космоса.</p><b>✦</b></article>
+          <article class="fact-card dark"><span>03</span><h3>АУРА</h3><p>Когда заходишь в переговорную, а там уже играет тревожный синтвейв.</p><b>⚡</b></article>
+        </div>
+      </section>
+
+      <section class="quote-zone">
+        <p class="eyebrow">цитатник, которого не было</p>
+        <blockquote id="quote">«План на день: выглядеть так,<br />будто ты уже всё запустил.»</blockquote>
+        <button class="quote-next" id="quote-button" type="button">ЕЩЁ МУДРОСТЬ <span>↗</span></button>
+      </section>
+    </main>
+
+    <footer><span>© МЕМНАЯ ВИЗИТКА, 2026</span><span>СДЕЛАНО С ИРОНИЕЙ И НУЛЁМ ГЕОПОЛИТИКИ</span><a href="#top">НАВЕРХ ↑</a></footer>
+    <div class="toast" id="toast" role="status">МЕМ ВЫДАН. СЕРЬЁЗНОСТЬ — МАКСИМАЛЬНА.</div>
+    <script src="script.js"></script>
+  </body>
+</html>
